@@ -70,7 +70,7 @@ MEMheatmap <- build.heatmaps(
   cluster.MEM = "both",
   display.thresh = 1,
   newWindow.heatmaps = FALSE,
-  output.files = FALSE,
+  output.files = TRUE,
   labels = TRUE,
   only.MEMheatmap = TRUE
 )
