@@ -68,7 +68,7 @@ MEM.values.tf = MEM(
 MEMheatmap <- build.heatmaps(
   MEM.values.tf,          # input MEM values
   cluster.MEM = "both",
-  display.thresh = 3,
+  display.thresh = 1,
   newWindow.heatmaps = FALSE,
   output.files = TRUE,
   labels = TRUE,
