@@ -75,3 +75,7 @@ MEMheatmap <- build.heatmaps(
   only.MEMheatmap = TRUE
 )
 
+## RMSD to check cluster similarity
+RMSD_input_MEM <- as.matrix(as.data.frame(MEM.values.tf[[5]]))
+RMSD_output <- MEM_RMSD(RMSD_input_MEM)
+
